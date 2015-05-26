@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MejoraNeoReader4.iml" filepath="$PROJECT_DIR$/MejoraNeoReader4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NeoReaderSDK/NeoReaderSDK.iml" filepath="$PROJECT_DIR$/NeoReaderSDK/NeoReaderSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

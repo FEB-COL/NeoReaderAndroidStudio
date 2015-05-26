@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <de.neom.neoreadersdk.Viewfinder5View
+        xmlns:neoreadersdk="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/viewfinderview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        neoreadersdk:resolution="high"
+        neoreadersdk:scaletype="full"
+        neoreadersdk:debugoverlay="true"
+        neoreadersdk:logo_gravity="top|left"
+        neoreadersdk:logo_marginLeft="8dp"
+        neoreadersdk:logo_marginTop="8dp"
+        neoreadersdk:shortEdge="50"
+        neoreadersdk:longEdge="50"
+        neoreadersdk:opacity="200"
+        />
+
+</RelativeLayout>
